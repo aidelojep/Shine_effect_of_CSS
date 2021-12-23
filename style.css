@@ -57,4 +57,16 @@ button{
     font-weight: 800;
     cursor: pointer;
     outline: none;
+    background-repeat: no-repeat;
+    background-position: -120px -120px, 0 0;
+    background: linear-gradient(45deg, yellow, purple, red, blue);
+    background-size: 250% 250%, 100% 100%;
+
+    transition: background-position 1s ease;
 }
+
+    button:hover{
+        background:linear-gradient(35deg, brown, pink, green);
+        background-position: 0 0;
+        transition: 0.5s;
+    }
