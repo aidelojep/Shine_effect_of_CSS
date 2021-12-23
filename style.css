@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Arial', 'sans-serif';
+    box-sizing: border-box;
+    
+}
+:root {
+    --first: purple;
+}
+
+body{
+    background: radial-gradient(circle at center, 
+    cyan, rgb(77, 136, 212), blue),100% ;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 70vh;
+}
+
+form{
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 1px, 2px, 3px rgba(50, 50, 50,0.87);
+    background-color: white;
+}
+.form-head{
+    font-size: 25px;
+    text-align: center;
+
+}
+input{
+    border: none;
+    border-bottom: 2px solid var(--first);
+}
+input{
+    border: none;
+    border-bottom: 2px solid var(--first);
+    padding: 10px;
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+.button-action{
+    text-align: center;
+}
+button{
+    border-radius: 8px;
+    border: none;
+    padding: 8px 12px;
+    color: whitesmoke;
+    background-color: purple;
+    font-weight: 800;
+    cursor: pointer;
+    outline: none;
+}
